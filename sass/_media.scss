@@ -1,0 +1,130 @@
+@import "vars";
+
+@media only screen and (max-width: 580px) {
+	header {
+		margin-bottom: 150px;
+	}
+	#navbar {
+		li {
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		li:last-child {
+			border: none;
+			padding: 0;
+			a {
+				width: 140px;
+				margin: 0 auto;
+				border: 3px solid #000;
+				padding: 10px 30px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#navbar {
+		li {
+			padding: 10px 20px;
+		}
+	}
+	.bigLogo {
+		img {
+			width: 100%;
+		}
+		p {
+			padding: 0;
+		}
+	}
+	.steps {
+		height: 40%;
+		top: 0px;
+		right: 5px;
+	}
+	.appDescr {
+		h1 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+	.flex-container {
+		display: block;
+	}
+	.flex-container2 {
+		display: flex;
+	}
+	.features {
+		width: 100%;
+		h2 {
+			font-size: 26px;
+		}
+		ul {
+			font-size: 18px;
+			margin-right: 0;
+			margin-bottom: 40px;
+		}
+	}
+	.feature-img {
+		width: 100%;
+		img {
+			max-width: 100%;
+		}
+	}
+	.buyLogo {
+		font-size: 38px;
+	}
+	.buyBtn {
+		button.buy-btn {
+			font-size: 24px;
+		}
+	}
+	footer {
+		padding: 80px 0 20px 0;
+		p {
+			font-size: 16px;
+		}
+	}
+	.contact {
+		margin-bottom: 30px;
+		font-size: 18px;
+		li {
+			flex: 1;
+			margin: 0 5px;
+		}
+		li:first-child {
+			margin-left: 60px;
+		}
+		li:last-child {
+			margin-right: 60px;
+		}
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.bigLogo {
+		p {
+			margin-right: 0;
+		}
+	}
+	.footprints {
+		top: 0px;
+		right: 5px;
+		width: 35%;
+		height: 50%;
+	}
+	.steps {
+		width: 35%;
+		height: 50%;
+		#step01, #step02, #step03, #step04, #step05, #step06 {
+			width: 15%;
+		}
+	}
+	.appDescr {
+		h1, p {
+			margin-right: 10px;
+		}
+	}
+}

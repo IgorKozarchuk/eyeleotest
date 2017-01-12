@@ -1,0 +1,448 @@
+/* line 3, ../sass/_header.scss */
+header {
+  height: 45px;
+  margin-top: 29px;
+  margin-bottom: 45px;
+}
+
+/* line 8, ../sass/_header.scss */
+#navbar {
+  line-height: 18px;
+  font-size: 18px;
+  text-align: right;
+}
+/* line 12, ../sass/_header.scss */
+#navbar li {
+  display: inline-block;
+  padding: 10px 60px;
+}
+/* line 15, ../sass/_header.scss */
+#navbar li a {
+  display: block;
+}
+/* line 19, ../sass/_header.scss */
+#navbar li:first-child {
+  font-size: 28px;
+  float: left;
+  margin-left: 11px;
+  padding: 0;
+}
+/* line 24, ../sass/_header.scss */
+#navbar li:first-child a {
+  display: flex;
+  align-items: center;
+}
+/* line 28, ../sass/_header.scss */
+#navbar li:first-child img {
+  margin-right: 10px;
+}
+/* line 32, ../sass/_header.scss */
+#navbar li:last-child {
+  margin-right: 11px;
+  border: 3px solid #000;
+  padding: 10px 30px;
+}
+
+/* line 3, ../sass/_footer.scss */
+footer {
+  background: url("../images/bottomBG.png") center no-repeat;
+  background-size: 100% 100%;
+  padding: 100px 0 20px 0;
+}
+/* line 7, ../sass/_footer.scss */
+footer p {
+  font-size: 18px;
+}
+
+/* line 12, ../sass/_footer.scss */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+/* line 18, ../sass/_footer.scss */
+.contact li {
+  flex: 1;
+  margin: 0 10px;
+}
+/* line 22, ../sass/_footer.scss */
+.contact li:first-child {
+  margin-left: 160px;
+}
+/* line 25, ../sass/_footer.scss */
+.contact li:last-child {
+  margin-right: 160px;
+}
+
+@font-face {
+  font-family: Biko;
+  src: url("../fonts/biko/Biko_Regular.otf");
+}
+/* line 11, ../sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, ../sass/style.scss */
+html {
+  height: 100%;
+  /* to achieve sticky footer */
+}
+
+/* line 21, ../sass/style.scss */
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  min-height: 100%;
+  /* to achieve sticky footer */
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 31, ../sass/style.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 34, ../sass/style.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 39, ../sass/style.scss */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 44, ../sass/style.scss */
+#eyeLeo {
+  font-family: Biko;
+}
+
+/* line 48, ../sass/style.scss */
+#top-wrapper {
+  background: url("../images/topBg.png") center no-repeat;
+  background-size: 100% 100%;
+}
+
+/* line 53, ../sass/style.scss */
+#wrapper {
+  flex: 1;
+  /* to achieve sticky footer */
+}
+
+/* line 57, ../sass/style.scss */
+.app {
+  position: relative;
+  padding-bottom: 90px;
+}
+
+/* line 61, ../sass/style.scss */
+.bigLogo {
+  text-align: left;
+  padding: 0 50px;
+  width: 60%;
+}
+/* line 65, ../sass/style.scss */
+.bigLogo p {
+  text-align: right;
+  margin-top: -5px;
+  margin-right: 20px;
+}
+
+/* line 71, ../sass/style.scss */
+.footprints {
+  position: absolute;
+  width: 368px;
+  height: 309px;
+  top: 50px;
+  right: 15px;
+}
+/* line 77, ../sass/style.scss */
+.footprints .steps {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* line 81, ../sass/style.scss */
+.footprints .steps img {
+  position: absolute;
+  display: none;
+}
+/* line 85, ../sass/style.scss */
+.footprints .steps #step01 {
+  top: 10%;
+  left: 0;
+}
+/* line 89, ../sass/style.scss */
+.footprints .steps #step02 {
+  top: 0;
+  left: 25%;
+}
+/* line 93, ../sass/style.scss */
+.footprints .steps #step03 {
+  top: 12%;
+  left: 50%;
+}
+/* line 97, ../sass/style.scss */
+.footprints .steps #step04 {
+  top: 28%;
+  left: 78%;
+}
+/* line 101, ../sass/style.scss */
+.footprints .steps #step05 {
+  top: 55%;
+  right: 0;
+}
+/* line 105, ../sass/style.scss */
+.footprints .steps #step06 {
+  bottom: 0;
+  right: 0;
+}
+
+/* line 113, ../sass/style.scss */
+.appDescr h1 {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 45px;
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 5px;
+}
+/* line 121, ../sass/style.scss */
+.appDescr p {
+  font-size: 22px;
+  line-height: 28px;
+  margin-right: 60px;
+}
+
+/* line 128, ../sass/style.scss */
+.content {
+  background-color: #f5f9f7;
+  margin-bottom: 23px;
+}
+/* line 131, ../sass/style.scss */
+.content:last-child {
+  margin-bottom: 0;
+}
+
+/* line 136, ../sass/style.scss */
+.flex-container, .flex-container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 10px;
+}
+
+/* line 142, ../sass/style.scss */
+.flex-container2 {
+  justify-content: space-around;
+  padding: 80px 10px;
+}
+
+/* line 149, ../sass/style.scss */
+.features h2 {
+  font-size: 34px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+/* line 154, ../sass/style.scss */
+.features ul {
+  font-size: 22px;
+  margin-right: -30px;
+}
+
+/* line 160, ../sass/style.scss */
+.buyLogo {
+  font-size: 59px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* line 166, ../sass/style.scss */
+.buyLogo img {
+  margin-right: 21px;
+}
+
+/* line 170, ../sass/style.scss */
+.buyBtn {
+  flex: 1;
+}
+/* line 172, ../sass/style.scss */
+.buyBtn button.buy-btn {
+  cursor: pointer;
+  background-color: #347a51;
+  border: none;
+  font-size: 30px;
+  padding: 16px 31px;
+}
+
+@media only screen and (max-width: 580px) {
+  /* line 4, ../sass/_media.scss */
+  header {
+    margin-bottom: 150px;
+  }
+
+  /* line 8, ../sass/_media.scss */
+  #navbar li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 13, ../sass/_media.scss */
+  #navbar li:last-child {
+    border: none;
+    padding: 0;
+  }
+  /* line 16, ../sass/_media.scss */
+  #navbar li:last-child a {
+    width: 140px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    padding: 10px 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 28, ../sass/_media.scss */
+  #navbar li {
+    padding: 10px 20px;
+  }
+
+  /* line 33, ../sass/_media.scss */
+  .bigLogo img {
+    width: 100%;
+  }
+  /* line 36, ../sass/_media.scss */
+  .bigLogo p {
+    padding: 0;
+  }
+
+  /* line 40, ../sass/_media.scss */
+  .steps {
+    height: 40%;
+    top: 0px;
+    right: 5px;
+  }
+
+  /* line 46, ../sass/_media.scss */
+  .appDescr h1 {
+    font-size: 28px;
+  }
+  /* line 49, ../sass/_media.scss */
+  .appDescr p {
+    font-size: 18px;
+  }
+
+  /* line 53, ../sass/_media.scss */
+  .flex-container, .flex-container2 {
+    display: block;
+  }
+
+  /* line 56, ../sass/_media.scss */
+  .flex-container2 {
+    display: flex;
+  }
+
+  /* line 59, ../sass/_media.scss */
+  .features {
+    width: 100%;
+  }
+  /* line 61, ../sass/_media.scss */
+  .features h2 {
+    font-size: 26px;
+  }
+  /* line 64, ../sass/_media.scss */
+  .features ul {
+    font-size: 18px;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  /* line 70, ../sass/_media.scss */
+  .feature-img {
+    width: 100%;
+  }
+  /* line 72, ../sass/_media.scss */
+  .feature-img img {
+    max-width: 100%;
+  }
+
+  /* line 76, ../sass/_media.scss */
+  .buyLogo {
+    font-size: 38px;
+  }
+
+  /* line 80, ../sass/_media.scss */
+  .buyBtn button.buy-btn {
+    font-size: 24px;
+  }
+
+  /* line 84, ../sass/_media.scss */
+  footer {
+    padding: 80px 0 20px 0;
+  }
+  /* line 86, ../sass/_media.scss */
+  footer p {
+    font-size: 16px;
+  }
+
+  /* line 90, ../sass/_media.scss */
+  .contact {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  /* line 93, ../sass/_media.scss */
+  .contact li {
+    flex: 1;
+    margin: 0 5px;
+  }
+  /* line 97, ../sass/_media.scss */
+  .contact li:first-child {
+    margin-left: 60px;
+  }
+  /* line 100, ../sass/_media.scss */
+  .contact li:last-child {
+    margin-right: 60px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  /* line 108, ../sass/_media.scss */
+  .bigLogo p {
+    margin-right: 0;
+  }
+
+  /* line 112, ../sass/_media.scss */
+  .footprints {
+    top: 0px;
+    right: 5px;
+    width: 35%;
+    height: 50%;
+  }
+
+  /* line 118, ../sass/_media.scss */
+  .steps {
+    width: 35%;
+    height: 50%;
+  }
+  /* line 121, ../sass/_media.scss */
+  .steps #step01, .steps #step02, .steps #step03, .steps #step04, .steps #step05, .steps #step06 {
+    width: 15%;
+  }
+
+  /* line 126, ../sass/_media.scss */
+  .appDescr h1, .appDescr p {
+    margin-right: 10px;
+  }
+}

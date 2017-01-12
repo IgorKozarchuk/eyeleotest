@@ -1,0 +1,28 @@
+@import "vars";
+
+footer {
+	background: url("../images/bottomBG.png") center no-repeat;
+	background-size: 100% 100%;
+	padding: 100px 0 20px 0;
+	p {
+		font-size: 18px;
+	}
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	font-size: 20px;
+	li {
+		flex: 1;
+		margin: 0 10px;
+	}
+	li:first-child {
+		margin-left: 160px;
+	}
+	li:last-child {
+		margin-right: 160px;
+	}
+}
